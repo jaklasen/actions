@@ -3,12 +3,12 @@
 name: PRs
 
 # Controls when the workflow will run
-on:
+on: workflow_dispatch
   # Triggers the workflow on push or pull request events but only for the "main" branch
-  push:
-    branches: [ "main", "develop","int" ]
-  pull_request:
-    branches: [ "main","develop","int" ]
+  #push:
+    #branches: [ "main", "develop","int" ]
+  #pull_request:
+    #branches: [ "main","develop","int" ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
