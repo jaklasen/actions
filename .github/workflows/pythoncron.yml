@@ -1,8 +1,7 @@
 name: run main.py
 on:
   schedule:
-  - cron: '0 */2 * * *' # every 2 hours (**:00)
-
+  - cron: '0 0 * * 1' # 00:00 mondays
 jobs:
   build:
     runs-on: ubuntu-latest
